@@ -10,31 +10,39 @@
 <body>
   
   <div class="wrapper">
-
+    
     <div class="form">
       <H1 class="form__title">Contact us</H1> 
       <p class="form__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, facere.</p>
 
-      <div class="form__wrap">
-        <input type="text" class="form__input" id="name" placeholder="Your name" autocomplete="off">
-        <label for="name" class="form__label">Your name<span></span></label>
-      </div>
-      
-      <div class="form__wrap">
-        <input type="text" class="form__input" id="name" placeholder="Your email" autocomplete="off">
-        <label for="name" class="form__label">Your email</label>
-      </div>
+      <div class="cont">
 
-      <div class="form__wrap">
-        <input type="text" class="form__input" id="name" placeholder="Your message" autocomplete="off">
-        <label for="name" class="form__label">Your message</label>
+        <div class="cont__wrap">
+          <input type="text" class="cont__input" id="name" autocomplete="off" required>
+          <label for="name" class="cont__label">
+            <span class="cont__name">Your name</span>
+          </label>
+        </div>
+        
+        <div class="cont__wrap">
+          <input type="text" class="cont__input" id="name" autocomplete="off" required>
+          <label for="name" class="cont__label">
+            <span class="cont__name">Your email</span>
+          </label>
+        </div>
+
+        <div class="cont__wrap">
+          <input type="text" class="cont__input" id="name" autocomplete="off" required>
+          <label for="name" class="cont__label">
+            <span class="cont__name">Mobile number</span>
+          </label>
+        </div>
+
+         <a href="" class="cont__btn">Submit</a>
+
       </div>
-      <a href="" class="form__btn">Submit</a>
     </div>
-
   </div>
-
-
 
 </body>
 </html>
