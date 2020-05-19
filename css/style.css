@@ -97,7 +97,7 @@ body {
   width: 100%;
   height: 100%;
   border: none;
-  border-bottom: 1px solid #1196d7;
+  border-bottom: 1px solid #323edd;
   background-color: transparent;
   padding-top: 1.8rem;
   font-size: 1.8rem;
@@ -121,7 +121,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-bottom: 2px solid #323edd;
+  border-bottom: 2px solid #1196d7;
   bottom: 0;
   left: 0;
   -webkit-transform: translateX(-100%);
